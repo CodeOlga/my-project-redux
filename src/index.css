@@ -22,7 +22,6 @@ body {
 }
 
 .block {
-  /* background-color: #cbf1f5; */
   background-color: #f6f6f6;
   padding: 20px;
 }
@@ -36,19 +35,6 @@ img {
 .cartIcon {
   width: 70px;
 }
-
-/* .categoryButtonSelected {
-  background-color: #ffd100;
-}
-.categoryButton:hover {
-  background-color: #0082d1;
-}
-
-.categoryButton {
-  cursor: pointer;
-  margin: 5px;
-  padding: 5px;
-} */
 
 .categoryButtonSelected {
   background-color: #96e3e3;
@@ -94,7 +80,28 @@ button {
   padding: 5px;
 }
 
+.log {
+  background-color: #86bdf4;
+  width: 121px;
+}
+
+.secret {
+  font-family: "Poppins", sans-serif;
+}
+.secret-icon {
+  width: 50px;
+}
+.users-picture {
+  width: 60px;
+}
+.pay-button {
+  width: 110px;
+}
+
 @media all and (max-width: 500px) {
+  .App {
+    flex-direction: column;
+  }
   img {
     width: 200px;
   }
